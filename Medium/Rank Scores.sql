@@ -17,6 +17,7 @@
 --Return the result table ordered by score in descending order.
 
 --The query result format is in the following example.
+--Solution 
 
 SELECT score,
 (SELECT COUNT(DISTINCT score) FROM scores WHERE score >= s.score) 'RANK'
