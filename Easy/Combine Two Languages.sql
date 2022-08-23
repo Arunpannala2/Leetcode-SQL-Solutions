@@ -1,12 +1,12 @@
-Table: Person
+--Table: Person
 
-+-------------+---------+
-| Column Name | Type    |
-+-------------+---------+
-| personId    | int     |
-| lastName    | varchar |
-| firstName   | varchar |
-+-------------+---------+
+--+-------------+---------+
+--| Column Name | Type    |
+--+-------------+---------+
+--| personId    | int     |
+--| lastName    | varchar |
+--| firstName   | varchar |
+--+-------------+---------+
 --personId is the primary key column for this table.
 --This table contains information about the ID of some persons and their first and last names.
  
